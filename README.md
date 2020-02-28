@@ -11,4 +11,7 @@
 
     cd HyperHTTPV2/
     chmod +x HyperHTTPV2
-    ./HyperHTTPV2
+    apt install python3
+    apt install python3-pip
+    pip3 install PySocks requests cfscrape bs4 scapy-python3
+    python3 ./HyperHTTPV2.py
