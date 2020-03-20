@@ -6,7 +6,7 @@
 
     git clone https://github.com/wachirachoomsiri/HyperHTTPV2.git
     cd HyperHTTPV2/
-    chmod +x HyperHTTPV2
+    chmod +x * -R
     apt install python3
     apt install python3-pip
     pip3 install PySocks requests cfscrape bs4 scapy-python3 scapy
